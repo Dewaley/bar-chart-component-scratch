@@ -8,7 +8,7 @@ const Bar = ({ padding, color, item, maxValue, containerHeight, barWidth }) => {
     <div className="bar" style={{height:`${containerHeight}`}}>
       <div className="rect"
         style={{width:`${barWidth - padding}px`,height: `${height}px`,backgroundColor: `${color}`}}
-      ></div>
+      ><span className="item-value">{item.value}</span></div>
       <span className="name-label">
         {item.name}
       </span>

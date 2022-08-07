@@ -45,8 +45,17 @@ h1 {
     position: relative;
 }
 .name-label {
-    position: absolute;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: -22px;
+}
+.rect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-value {
+    transform: rotate(90deg);
+    font-size: larger;
 }
